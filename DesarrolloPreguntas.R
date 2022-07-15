@@ -1,6 +1,8 @@
 install.packages("tidyverse")
 library(tidyverse)
 
+setwd("~/GitHub/Trabajo-Uno")
+
 rm(list = ls())
 
 ####################
@@ -93,5 +95,51 @@ votaciones_solo_total(10)
 ### Ejercicio 2 ####
 ####################
 
+# Limpia las variables almacenadas
+rm(list = ls())
 
+datos_judiciales <- list(c("mp","Juan","Christofer"),
+                         c("of","av01","ampr"),
+                         c("of","av01","ante"),
+                         c("of","av08","arme"),
+                         c("of","av02","ante"),
+                         c("of","av07","ampr"),
+                         c("of","av03","dape"),
+                         c("of","av01","meca"),
+                         c("of","av02","dape"),
+                         c("mp","Antonia"),
+                         c("mp","Christian","Mario"),
+                         c("mp","Jose","Pedro","Antonela"),
+                         c("of","av05","meca"),
+                         c("of","av04","dape"),
+                         c("of","av02","arme"))
+
+
+# Ejecuta la funcion, solo recibe el parametro datos judiciales
+contar_mp(datos_judiciales)
+
+# Funcion contar_mp, recibe el parametro "datos_judiciales" el cual es la base de datos de la clasificacion de datos judiciales, deben tener el mismo formato que la lista de arriba.
+contar_mp <- function(datos_judiciales){
+  ninios <- c()
+  contador <- list()
+  estadistica <- list()
+  for (i in datos_judiciales) {
+    if (i[1] == "mp") {
+      contador <- length(i[-1])
+      ninios <- c(ninios,unlist(contador))
+    }
+  }
+  unicos <- unique(ninios)
+  for (contador_ninios in unicos) {
+    estadistica[length(estadistica)+1] <- unlist(contador_ninios)
+  }
+  nueva_estadistica<- estadistica
+  for (equis in 1:length(unicos)) {
+    nueva_estadistica <- c(estadistica[[equis]][1], length(ninios[ninios == unicos[equis]]))
+    print(paste("Se cuentan con",nueva_estadistica[2], "mp de",nueva_estadistica[1], "niños"))
+  }
+}
+
+# Ejecuta la funcion, solo recibe el parametro datos judiciales
+contar_mp(datos_judiciales)
 
