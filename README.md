@@ -25,6 +25,9 @@ En este ejercicio se busca crear una funcion que de acuerdo a una clasificacion 
 
 En este ejercicio se pretende crear un sitio web de acuerdo a lo aprendido en HTML y CSS, el cual debe contener ciertas caracteristicas, entre ellas una cierta cantidad de divs, imagenes y tablas.
 
+Respecto a "PD: ¿Se dieron cuenta de el suceso extraño respecto al tag “img”, analice en qué se diferencia
+de los tag ya vistos previamente?", la etiqueta img se diferencia del resto de etiquetas vistas en que no tiene etiqueta de cierre como la gran mayoria.
+
 !(https://raw.githubusercontent.com/Nicolas-Tolosa/Trabajo-Uno/main/noticia.jpg)
 
 !(https://raw.githubusercontent.com/Nicolas-Tolosa/Trabajo-Uno/main/tabla.png)
