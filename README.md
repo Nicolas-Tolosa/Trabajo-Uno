@@ -27,6 +27,6 @@ En este ejercicio se pretende crear un sitio web de acuerdo a lo aprendido en HT
 
 ! (https://raw.githubusercontent.com/Nicolas-Tolosa/Trabajo-Uno/main/noticia.jpg))
 
-! (https://raw.githubusercontent.com/Nicolas-Tolosa/Trabajo-Uno/main/tabla.jpg)
+! (https://raw.githubusercontent.com/Nicolas-Tolosa/Trabajo-Uno/main/tabla.png)
 
 
