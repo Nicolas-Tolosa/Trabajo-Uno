@@ -25,4 +25,7 @@ En este ejercicio se busca crear una funcion que de acuerdo a una clasificacion 
 
 En este ejercicio se pretende crear un sitio web de acuerdo a lo aprendido en HTML y CSS, el cual debe contener ciertas caracteristicas, entre ellas una cierta cantidad de divs, imagenes y tablas.
 
+!(https://github.com/Nicolas-Tolosa/Trabajo-Uno/blob/main/noticia.jpg)
+!(https://github.com/Nicolas-Tolosa/Trabajo-Uno/blob/main/tabla.jpg)
+
 
