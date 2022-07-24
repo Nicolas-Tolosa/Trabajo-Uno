@@ -28,8 +28,8 @@ En este ejercicio se pretende crear un sitio web de acuerdo a lo aprendido en HT
 Respecto a "PD: ¿Se dieron cuenta de el suceso extraño respecto al tag “img”, analice en qué se diferencia
 de los tag ya vistos previamente?", la etiqueta img se diferencia del resto de etiquetas vistas en que no tiene etiqueta de cierre como la gran mayoria.
 
-!(https://raw.githubusercontent.com/Nicolas-Tolosa/Trabajo-Uno/main/noticia.jpg)
+![noticia.jpg](https://raw.githubusercontent.com/Nicolas-Tolosa/Trabajo-Uno/main/noticia.jpg)
 
-!(https://raw.githubusercontent.com/Nicolas-Tolosa/Trabajo-Uno/main/tabla.png)
+![tabla.png](https://raw.githubusercontent.com/Nicolas-Tolosa/Trabajo-Uno/main/tabla.png)
 
 
