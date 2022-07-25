@@ -25,7 +25,7 @@ votaciones <- function(total,votosSI,votosNO){
         } else{
           print("votosNO tiene un 30% de Quorum")
           if (votosSI == votosNO) {
-            print("Los Quorums son identicos, ha ganado el NO debido al empate")
+            print("Los Quorums son identicos, ha ganado el SI debido al empate")
           } else{
             if (votosSI > votosNO) {
               print("Ha ganado el SI")
